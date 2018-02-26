@@ -1,5 +1,11 @@
 package com.genewhisper.service;
 
-public class GenewhisperService {
+import java.util.List;
+
+import com.genewhisper.web.controller.model.CustomerProfileVO;
+
+public interface GenewhisperService {
+
+	public List<CustomerProfileVO> findCustomerProfiles();
 
 }

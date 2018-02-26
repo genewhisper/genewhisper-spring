@@ -1,5 +1,11 @@
 package com.genewhisper.dao;
 
-public class GenewhisperDao {
+import java.util.List;
+
+import com.genewhisper.dao.entity.CustomerProfileEntity;
+
+public interface GenewhisperDao {
+
+	public List<CustomerProfileEntity> findCustomerProfiles();
 
 }
